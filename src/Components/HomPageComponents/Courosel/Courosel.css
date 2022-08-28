@@ -1,0 +1,53 @@
+.carousel {
+    overflow: hidden;
+  }
+  
+  .inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+  }
+  
+  .carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    
+  }
+  
+  .indicators {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .indicators > button {
+    margin: 5px;
+  }
+  
+  .indicators > button.active {
+    background-color: green;
+    color: #fff;
+  }
+  
+  .blogarrow {
+    position: absolute
+}
+
+.blogarrowi {
+    color: #ff9400;
+    font-size: 30px
+}
+
+.blogarrowa {
+    background-color: transparent;
+}
+
+.blogleft {
+    left: -3%;
+    top: 40%
+}
+
+.blogright {
+    right: -3%;
+    top: 40%
+}

@@ -1,0 +1,383 @@
+.header{
+    background-image: url(https://assets.loseit.com/website/home/Wave.png), linear-gradient(90deg, rgba(245, 128, 30, 1) 0, rgba(246, 146, 29, 1) 100%);
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    padding: 50px 0px;
+    width: 100%;
+}
+.hr1 {
+    border: 5px solid #ff9400;
+    width: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+.pounds {
+    color: #455555;
+    letter-spacing: .4em;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 10px auto;
+}
+.numbers{
+    color: #ff9400;
+    font-size: 6.5em;
+    font-weight: 700;
+    margin: 10px auto;
+}
+.seenonLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    width: 70%;
+    margin: auto;
+}
+.image{
+    width: 20%;
+    background-color: transparent;
+    margin: 0 auto;
+    padding: 10px 15px
+}
+
+.advice {
+    background-color: #183962;
+    padding: 40px 0;
+    text-align: center
+}
+
+.adviceflex {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto
+}
+
+.adviceflexElement {
+    width: 50%;
+    margin: 20px auto;
+    color: #fff
+}
+
+.adviceh2 {
+    color: #fff
+}
+
+.advicep {
+    text-align: center;
+    width: 75%;
+    margin: 10px auto;
+    align-self: center;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #ffa600
+}
+
+.advicespan {
+    align-self: center;
+    font-size: .8em;
+    color: #fff;
+    margin-bottom: 30px
+}
+
+.adviceimg {
+    width: 200px;
+    position: relative;
+    align-self: center
+}
+
+.getStarted {
+    text-align: center;
+    padding: 50px 0 70px 0;
+    background-color: #f1f1f1;
+    background-image: url(https://assets.loseit.com/website/home/Pattern_50opacity_Long.svg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.getStartedimg {
+    height: 60px
+}
+
+.getStarteda {
+    background-color: transparent;
+    padding: 0 10px
+}
+
+
+@media only screen and (max-width:868px) {
+    #header {
+        background-size: 100% 350px;
+        padding: 40px 20px
+    }
+
+    #header h1 {
+        font-size: 30px
+    }
+
+    #phone {
+        height: 350px
+    }
+
+    #features p {
+        font-size: 14px;
+        line-height: 25px
+    }
+
+    #features img {
+        height: 80px
+    }
+
+    #features .featurePost {
+        height: 230px;
+        width: 35%
+    }
+
+    #numbers img {
+        width: 100px
+    }
+
+    #blog .blogPost img {
+        width: 95%
+    }
+
+    #blog .blogPost {
+        width: 25%;
+        padding: 10px 5px
+    }
+
+    #blog .blogPost p {
+        font-size: 14px
+    }
+
+    #blog .left {
+        left: 0
+    }
+
+    #blog .right {
+        right: 0
+    }
+
+    #footer {
+        padding: 50px 10px;
+    }
+
+    #footer .links {
+        width: 100%;
+    }
+
+    #footer img {
+        width: 100px;
+        height: 100%;
+        margin: 20px auto;
+        display: inline-block;
+        float: none;
+    }
+
+}
+
+@media only screen and (max-width:550px) {
+    #nav #logo {
+        margin: 0 auto
+    }
+
+    #logIn {
+        display: none
+    }
+
+    .header {
+        padding: 10px 0px;
+        background-size: 220% 450px
+    }
+
+    #header .flex {
+        flex-direction: column-reverse
+    }
+
+    #phone {
+        width: 200px;
+        height: auto;
+        margin: 0 auto
+    }
+
+    #header .flexElement {
+        margin-left: 0;
+        text-align: center
+    }
+
+    #header h1 {
+        margin-top: 0;
+        font-size: 35px
+    }
+
+    #header p {
+        font-size: 15px
+    }
+
+    #header .flexElement a {
+        display: none
+    }
+
+    #header .fa {
+        font-size: 14px
+    }
+
+    #header .fa-android {
+        margin-left: 15px
+    }
+
+    #header .rating {
+        justify-content: center
+    }
+
+    #header .rating a {
+        display: flex
+    }
+
+    #header br {
+        display: none
+    }
+
+    #steps .flex {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center
+    }
+
+    #steps .flexElement {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 0;
+        margin-bottom: 10px
+    }
+
+    #steps .flexElement:nth-child(2) {
+        order: 0
+    }
+
+    #steps .flexElement:nth-child(1) {
+        order: 1
+    }
+
+    #steps .flexElement:nth-child(3) {
+        order: 1
+    }
+
+    #steps h3,
+    p {
+        margin: 5px 0
+    }
+
+    #steps img {
+        width: 60px;
+        margin: 10px 20px
+    }
+
+    #features .second {
+        display: none
+    }
+
+    #features .featurePost {
+        width: 70%;
+        height: 200px
+    }
+
+    #features .smallFeaturesIndicators {
+        display: inline-block
+    }
+
+    .numbers {
+        margin: 10px auto
+    }
+
+    #numbers div,
+    h4 {
+        display: none
+    }
+
+    #numbers h1 {
+        font-size: 4em
+    }
+
+    #numbers h3 {
+        display: none
+    }
+
+    #numbers #partyHat {
+        width: 150px
+    }
+
+    #advice .flex {
+        flex-direction: column
+    }
+
+    #advice .flexElement {
+        width: 75%
+    }
+
+    #getStarted h3 {
+        display: none
+    }
+
+    #getStarted {
+        padding: 50px 0
+    }
+
+
+
+
+    #footer {
+        text-align: center;
+        padding: 20px 0px 80px 0px;
+    }
+
+    #footer a {
+        font-size: .95em
+    }
+
+    #footer table {
+        margin: 30px 0 0 0;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer table {
+        margin-top: 0px;
+    }
+
+    #footerTableDesktop {
+        display: none
+    }
+
+    #footerTableMobile {
+        display: inline-table;
+    }
+
+
+    #footer .social {
+        display: none
+    }
+
+
+    #persistantButton {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        z-index: 20;
+        background-color: rgb(241, 241, 241, .9)
+    }
+
+    #blog {
+        display: none
+    }
+}
