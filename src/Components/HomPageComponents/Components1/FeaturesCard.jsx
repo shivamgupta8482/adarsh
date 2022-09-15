@@ -3,6 +3,7 @@ export default function FeaturesCard({src,heading,text}){
       <div>
         <Image src={src} />
         <h1>{heading}</h1>
+        <br />
         <p>{text}</p>
 
 
